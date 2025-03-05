@@ -6,6 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B0A6FE742D78B2DD0046F4D4 /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = B0A6FE732D78B2DD0046F4D4 /* FacebookAEM */; };
+		B0A6FE762D78B2DD0046F4D4 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = B0A6FE752D78B2DD0046F4D4 /* FacebookCore */; };
+		B0A6FE782D78B2DD0046F4D4 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = B0A6FE772D78B2DD0046F4D4 /* FacebookLogin */; };
+		B0A6FE7A2D78B2DD0046F4D4 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = B0A6FE792D78B2DD0046F4D4 /* FacebookShare */; };
+		B0A6FE7C2D78B3200046F4D4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B0A6FE7B2D78B3200046F4D4 /* FirebaseAnalytics */; };
+		B0A6FE7E2D78B3200046F4D4 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = B0A6FE7D2D78B3200046F4D4 /* FirebaseAppCheck */; };
+		B0A6FE802D78B3200046F4D4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B0A6FE7F2D78B3200046F4D4 /* FirebaseAuth */; };
+		B0A6FE822D78B3200046F4D4 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = B0A6FE812D78B3200046F4D4 /* FirebaseCore */; };
+		B0A6FE842D78B3200046F4D4 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = B0A6FE832D78B3200046F4D4 /* FirebaseCrashlytics */; };
+		B0A6FE862D78B3200046F4D4 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = B0A6FE852D78B3200046F4D4 /* FirebaseInAppMessaging-Beta */; };
+		B0A6FE882D78B3200046F4D4 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = B0A6FE872D78B3200046F4D4 /* FirebaseInstallations */; };
+		B0A6FE8A2D78B3330046F4D4 /* RecaptchaEnterprise in Frameworks */ = {isa = PBXBuildFile; productRef = B0A6FE892D78B3330046F4D4 /* RecaptchaEnterprise */; };
+		B0A6FE8C2D78B3330046F4D4 /* GTMSessionFetcher in Frameworks */ = {isa = PBXBuildFile; productRef = B0A6FE8B2D78B3330046F4D4 /* GTMSessionFetcher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B08A1BD62D560F5E00F8BBB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +81,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A6FE882D78B3200046F4D4 /* FirebaseInstallations in Frameworks */,
+				B0A6FE742D78B2DD0046F4D4 /* FacebookAEM in Frameworks */,
+				B0A6FE762D78B2DD0046F4D4 /* FacebookCore in Frameworks */,
+				B0A6FE7A2D78B2DD0046F4D4 /* FacebookShare in Frameworks */,
+				B0A6FE7C2D78B3200046F4D4 /* FirebaseAnalytics in Frameworks */,
+				B0A6FE7E2D78B3200046F4D4 /* FirebaseAppCheck in Frameworks */,
+				B0A6FE802D78B3200046F4D4 /* FirebaseAuth in Frameworks */,
+				B0A6FE842D78B3200046F4D4 /* FirebaseCrashlytics in Frameworks */,
+				B0A6FE822D78B3200046F4D4 /* FirebaseCore in Frameworks */,
+				B0A6FE782D78B2DD0046F4D4 /* FacebookLogin in Frameworks */,
+				B0A6FE862D78B3200046F4D4 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				B0A6FE8A2D78B3330046F4D4 /* RecaptchaEnterprise in Frameworks */,
+				B0A6FE8C2D78B3330046F4D4 /* GTMSessionFetcher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +120,7 @@
 				B08A1BC72D560F5900F8BBB8 /* basic_app */,
 				B08A1BD82D560F5E00F8BBB8 /* basic_appTests */,
 				B08A1BE22D560F5E00F8BBB8 /* basic_appUITests */,
+				B0A6FE722D78B2DD0046F4D4 /* Frameworks */,
 				B08A1BC62D560F5900F8BBB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +133,13 @@
 				B08A1BDF2D560F5E00F8BBB8 /* basic_appUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B0A6FE722D78B2DD0046F4D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +162,19 @@
 			);
 			name = basic_app;
 			packageProductDependencies = (
+				B0A6FE732D78B2DD0046F4D4 /* FacebookAEM */,
+				B0A6FE752D78B2DD0046F4D4 /* FacebookCore */,
+				B0A6FE772D78B2DD0046F4D4 /* FacebookLogin */,
+				B0A6FE792D78B2DD0046F4D4 /* FacebookShare */,
+				B0A6FE7B2D78B3200046F4D4 /* FirebaseAnalytics */,
+				B0A6FE7D2D78B3200046F4D4 /* FirebaseAppCheck */,
+				B0A6FE7F2D78B3200046F4D4 /* FirebaseAuth */,
+				B0A6FE812D78B3200046F4D4 /* FirebaseCore */,
+				B0A6FE832D78B3200046F4D4 /* FirebaseCrashlytics */,
+				B0A6FE852D78B3200046F4D4 /* FirebaseInAppMessaging-Beta */,
+				B0A6FE872D78B3200046F4D4 /* FirebaseInstallations */,
+				B0A6FE892D78B3330046F4D4 /* RecaptchaEnterprise */,
+				B0A6FE8B2D78B3330046F4D4 /* GTMSessionFetcher */,
 			);
 			productName = basic_app;
 			productReference = B08A1BC52D560F5900F8BBB8 /* basic_app.app */;
@@ -208,6 +258,13 @@
 			);
 			mainGroup = B08A1BBC2D560F5900F8BBB8;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B0A6FE6D2D78B02A0046F4D4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				B0A6FE6E2D78B06B0046F4D4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B0A6FE6F2D78B0BA0046F4D4 /* XCRemoteSwiftPackageReference "GoogleUtilities" */,
+				B0A6FE702D78B1080046F4D4 /* XCRemoteSwiftPackageReference "recaptcha-enterprise-mobile-sdk" */,
+				B0A6FE712D78B16F0046F4D4 /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B08A1BC62D560F5900F8BBB8 /* Products */;
 			projectDirPath = "";
@@ -418,12 +475,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ines.basicapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.app4.spm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,12 +506,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ines.basicapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.app4.spm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -573,6 +632,117 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B0A6FE6D2D78B02A0046F4D4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+		B0A6FE6E2D78B06B0046F4D4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
+		B0A6FE6F2D78B0BA0046F4D4 /* XCRemoteSwiftPackageReference "GoogleUtilities" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleUtilities.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.2;
+			};
+		};
+		B0A6FE702D78B1080046F4D4 /* XCRemoteSwiftPackageReference "recaptcha-enterprise-mobile-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GoogleCloudPlatform/recaptcha-enterprise-mobile-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 18.7.0;
+			};
+		};
+		B0A6FE712D78B16F0046F4D4 /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/gtm-session-fetcher.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B0A6FE732D78B2DD0046F4D4 /* FacebookAEM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0A6FE6D2D78B02A0046F4D4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookAEM;
+		};
+		B0A6FE752D78B2DD0046F4D4 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0A6FE6D2D78B02A0046F4D4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		B0A6FE772D78B2DD0046F4D4 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0A6FE6D2D78B02A0046F4D4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		B0A6FE792D78B2DD0046F4D4 /* FacebookShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0A6FE6D2D78B02A0046F4D4 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
+		};
+		B0A6FE7B2D78B3200046F4D4 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0A6FE6E2D78B06B0046F4D4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B0A6FE7D2D78B3200046F4D4 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0A6FE6E2D78B06B0046F4D4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		B0A6FE7F2D78B3200046F4D4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0A6FE6E2D78B06B0046F4D4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B0A6FE812D78B3200046F4D4 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0A6FE6E2D78B06B0046F4D4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		B0A6FE832D78B3200046F4D4 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0A6FE6E2D78B06B0046F4D4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		B0A6FE852D78B3200046F4D4 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0A6FE6E2D78B06B0046F4D4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		B0A6FE872D78B3200046F4D4 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0A6FE6E2D78B06B0046F4D4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		B0A6FE892D78B3330046F4D4 /* RecaptchaEnterprise */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0A6FE702D78B1080046F4D4 /* XCRemoteSwiftPackageReference "recaptcha-enterprise-mobile-sdk" */;
+			productName = RecaptchaEnterprise;
+		};
+		B0A6FE8B2D78B3330046F4D4 /* GTMSessionFetcher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0A6FE712D78B16F0046F4D4 /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B08A1BBD2D560F5900F8BBB8 /* Project object */;
 }
